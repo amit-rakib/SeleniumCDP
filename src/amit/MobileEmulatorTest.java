@@ -29,6 +29,8 @@ public class MobileEmulatorTest {
 		driver.findElement(By.cssSelector(".navbar-toggler")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[normalize-space()='Library']")).click();
+		
+		driver.close();
 
 	}
 
